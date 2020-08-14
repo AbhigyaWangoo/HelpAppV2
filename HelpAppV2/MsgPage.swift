@@ -10,12 +10,6 @@ import Firebase
 import FirebaseFirestore
 
 
-struct Message {
-    var content: String
-    var user: String
-    var avatar: String
-}
-
 
 struct MsgPage: View{
     @State var msgContent = ""
